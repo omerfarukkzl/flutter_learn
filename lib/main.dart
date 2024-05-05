@@ -1,5 +1,13 @@
 // ignore: unused_import
+import 'package:ders_2/101/app_bar_learn.dart';
+// ignore: unused_import
+import 'package:ders_2/101/button_learn.dart';
+import 'package:ders_2/101/color_learn.dart';
+// ignore: unused_import
 import 'package:ders_2/101/container_sizedbox_learn.dart';
+// ignore: unused_import
+import 'package:ders_2/101/icon_learn.dart';
+// ignore: unused_import
 import 'package:ders_2/101/scaffold_learn.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +23,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter Demo',
-        theme: ThemeData.dark(),
-        home: const ScaffoldLearnView());
+        theme: ThemeData.dark().copyWith(
+          appBarTheme: const AppBarTheme(
+            centerTitle: true,
+            backgroundColor: Colors.blueGrey,
+
+          ),
+        ),
+        home: const ColorLearnView());
   }
 }
