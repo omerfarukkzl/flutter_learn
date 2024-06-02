@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-
 class ButtonLearn extends StatelessWidget {
   const ButtonLearn({super.key});
 
@@ -20,7 +19,7 @@ class ButtonLearn extends StatelessWidget {
           ),
           const ElevatedButton(
             onPressed: null,
-            child: const Text("Return"),
+            child: Text("Return"),
           ),
           IconButton(
             onPressed: () {},
@@ -60,8 +59,8 @@ class ButtonLearn extends StatelessWidget {
                   ),
                 )),
             child: Padding(
-              padding:
-                  const EdgeInsets.only(top: 20, bottom: 20, right: 40, left: 40),
+              padding: const EdgeInsets.only(
+                  top: 20, bottom: 20, right: 40, left: 40),
               child: Text(
                 "Place Bid",
                 style: Theme.of(context).textTheme.headlineSmall,
