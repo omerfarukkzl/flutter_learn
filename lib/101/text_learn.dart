@@ -28,7 +28,7 @@ class TextLearnView extends StatelessWidget {
             Text(("Let's get started"),
             maxLines: 2,
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.headline5?.copyWith(
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               color: ProjectColors.welcomeColor
             ),
             

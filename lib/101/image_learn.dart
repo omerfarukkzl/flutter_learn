@@ -14,6 +14,10 @@ class ImageLearnView extends StatelessWidget {
             child: SizedBox(
               width: 300,
               height: 300,
+              child: PngImage(name: "apple" ,
+              
+              ),
+              
             ),
           ),
         ],
@@ -23,7 +27,7 @@ class ImageLearnView extends StatelessWidget {
 }
 
 class ImageItems {
-  final String penguen = "assets/png/NewTux.png";
+  final String apple = "assets/png/apple.png";
   final String penguen2 = "assets/png/NewTux.png";
 }
 
